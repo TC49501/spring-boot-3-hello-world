@@ -4,12 +4,12 @@
 
 > **Note:** **Spring Boot 3.x** requires **Java 17** as a minimum version. Make sure you are using Java 17 or beyond for Spring Boot 3.x projects.
 
-brew update
+brew update  
 brew install --cask google-cloud-sdk
 gcloud init
 
-gcloud config list
-gcloud config set project thiruspringboot
+gcloud config list  
+gcloud config set project thiruspringboot  
 gcloud services enable run.googleapis.com
 
 gcloud projects add-iam-policy-binding thiruspringboot \
